@@ -79,10 +79,3 @@ For regular mode:
 	4. Scroll left to have more space to write(also only allows writing from left to right)
 	5. Each read letter will be output to console
 
-	Self Assessment
-============================================
-I have written the class Character, parts of QDrawSpace, DrawnObject and portions that involved outputing the current information
-in MainWindow class.
-Tackling the project has been quite enjoyable, although I have to admit it was a bit of a challenge doing it on my own. It would have
-been amazing to have a partner. Nonetheless, I feel like I have made a tremendous deal of progress this semester from having no knowledge
-of C++ to having a working application in Qt. I am definitely looking forward to working out the kinks in future.
