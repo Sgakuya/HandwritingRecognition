@@ -38,16 +38,16 @@ The categories are :
 The letter is then printed in the console. If the letter doesn't match the checking criteria, it prints an empty string.
 In debug mode instead of the letter, you print the details of each segment to the console e.g. SCC.
 
-	State of project
-===========================================
+__State of project__
+
 current features
------------------
+--
 
 Allows recognition of certain letters of the English and German alphabet.
 Allows clearing of the screen and console simultaneously.
 
 bugs
------------------
+--
 Depending on the speed at which you write, some letters might be falsely deciphered: when written slowly the current speed 
 	check deciphers all coded letters correctly. A more sensitive mouse speed checker resulted in more unnecessary vertices.
 Some letters are inconsistent due to the curves in the segments, thus they aren't currently deciphered by the program.
@@ -56,7 +56,7 @@ Some letters are inconsistent due to the curves in the segments, thus they aren'
 Currently doesn't separate words.
 
 to-do list
------------------
+--
 Need to figure out a way to properly combined curved segments.
 Need to generalize code to cover a broader spectrum of handwritings i.e. order of segments shouldn't matter.
 Need to separate words
