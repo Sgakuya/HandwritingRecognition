@@ -1,20 +1,23 @@
-		      ####### SMITH GAKUYA ########
-=======================================================================
-		HANDWRITING RECOGNITION - GERMAN ALPHABET
-=======================================================================
+	####### SMITH GAKUYA ########
 
-	Design and Code overview
-===========================================
+	HANDWRITING RECOGNITION - GERMAN ALPHABET
+
+__Design and Code overview__
+
 The StrokeParser is a notepad that is aimed to recognize characters present in the German and
 English alphabets.
-It works by following in mouse/stylus movements and takes not of changes in direction and mouse velocity.
+It works by following mouse/stylus movements and takes note of changes in direction and mouse velocity.
 Points where the mouse slows down significantly are recorded as vertices.
 Currently it works by dividing each drawn object into smaller segments or dots. The order in which the
 segments are drawn matters. After a new letter is drawn, which is done when there is a significant enough
 difference between the right most X value of the drawspace and the left most X value of the new object, the 
 previous letter's sub-segments are deciphered which determines which method that letter will be taken into.
 There are currently 16 sub categories for the 60 letters which allows for a maximum of 7 checks before getting
-to the most probable letter.
+to the most probable letter. 
+KEY:
+	C - Curve
+	S - Straight line
+	D - Dot
 The categories are :
     C - C, O, U, c, e, l, o
     CC - e*, m , w, y
@@ -25,15 +28,15 @@ The categories are :
     CSDD - ae, ue
     CSS - G, q
     SC - D, J, P, b, h, n, p, r
-    QSCC - B, ß
+    SCC - B, ß
     SCS - R
     SD - i
     SS - L, T, V, X, Y, v, x
     SSS - A, F, H, I, K, N, V, Y, Z, k, z
     SSSDD - AE
     SSSS - E, M, W
-The letter is then printed to the console. If the letter doesn't match the checking criteria, it prints an empty string.
-In debug mode instead of the letter you print the details of each segment to the console.
+The letter is then printed in the console. If the letter doesn't match the checking criteria, it prints an empty string.
+In debug mode instead of the letter, you print the details of each segment to the console e.g. SCC.
 
 	State of project
 ===========================================
@@ -59,6 +62,7 @@ Need to generalize code to cover a broader spectrum of handwritings i.e. order o
 Need to separate words
 Need to cross check correctness of outputted words with a dictionary
 Need to resize the writing panel to allow writing more words without clearing
+Implement some AI to account for differences in handwriting and ways of writing
 
 	Basic user guide
 ===========================================
