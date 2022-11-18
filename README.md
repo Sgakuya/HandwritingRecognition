@@ -40,12 +40,12 @@ In debug mode instead of the letter, you print the details of each segment to th
 
 State of project
 --
-__current features__
+__Current Features__
 
 Allows recognition of certain letters of the English and German alphabet.
 Allows clearing of the screen and console simultaneously.
 
-__bugs__
+__Bugs__
 
 Depending on the speed at which you write, some letters might be falsely deciphered: when written slowly the current speed 
 	check deciphers all coded letters correctly. A more sensitive mouse speed checker resulted in more unnecessary vertices.
@@ -54,7 +54,7 @@ Some letters are inconsistent due to the curves in the segments, thus they aren'
 	This happens since I have not figured out a way to properly combine curved segments.
 Currently doesn't separate words.
 
-__to-do list__
+__To-Do List__
 
 Need to figure out a way to properly combined curved segments.
 Need to generalize code to cover a broader spectrum of handwritings i.e. order of segments shouldn't matter.
