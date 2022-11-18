@@ -46,6 +46,7 @@ Allows recognition of certain letters of the English and German alphabet.
 Allows clearing of the screen and console simultaneously.
 
 __bugs
+
 Depending on the speed at which you write, some letters might be falsely deciphered: when written slowly the current speed 
 	check deciphers all coded letters correctly. A more sensitive mouse speed checker resulted in more unnecessary vertices.
 Some letters are inconsistent due to the curves in the segments, thus they aren't currently deciphered by the program.
@@ -54,6 +55,7 @@ Some letters are inconsistent due to the curves in the segments, thus they aren'
 Currently doesn't separate words.
 
 __to-do list
+
 Need to figure out a way to properly combined curved segments.
 Need to generalize code to cover a broader spectrum of handwritings i.e. order of segments shouldn't matter.
 Need to separate words
@@ -61,7 +63,8 @@ Need to cross check correctness of outputted words with a dictionary
 Need to resize the writing panel to allow writing more words without clearing
 Implement some AI to account for differences in handwriting and ways of writing
 
-	Basic user guide
+Basic user guide
+--
 For debug mode: 
 	1. Go to mainwindow.cpp and change debugMode variable to true
 	2. Run program
