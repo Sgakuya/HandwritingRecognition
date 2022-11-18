@@ -1,9 +1,9 @@
-	####### SMITH GAKUYA ########
+	Author: SMITH GAKUYA 
 
 	HANDWRITING RECOGNITION - GERMAN ALPHABET
 
-__Design and Code overview__
-
+Design and Code overview
+--
 The StrokeParser is a notepad that is aimed to recognize characters present in the German and
 English alphabets.
 It works by following mouse/stylus movements and takes note of changes in direction and mouse velocity.
@@ -38,16 +38,14 @@ The categories are :
 The letter is then printed in the console. If the letter doesn't match the checking criteria, it prints an empty string.
 In debug mode instead of the letter, you print the details of each segment to the console e.g. SCC.
 
-__State of project__
-
-current features
+State of project
 --
+__current features
 
 Allows recognition of certain letters of the English and German alphabet.
 Allows clearing of the screen and console simultaneously.
 
-bugs
---
+__bugs
 Depending on the speed at which you write, some letters might be falsely deciphered: when written slowly the current speed 
 	check deciphers all coded letters correctly. A more sensitive mouse speed checker resulted in more unnecessary vertices.
 Some letters are inconsistent due to the curves in the segments, thus they aren't currently deciphered by the program.
@@ -55,8 +53,7 @@ Some letters are inconsistent due to the curves in the segments, thus they aren'
 	This happens since I have not figured out a way to properly combine curved segments.
 Currently doesn't separate words.
 
-to-do list
---
+__to-do list
 Need to figure out a way to properly combined curved segments.
 Need to generalize code to cover a broader spectrum of handwritings i.e. order of segments shouldn't matter.
 Need to separate words
@@ -65,7 +62,6 @@ Need to resize the writing panel to allow writing more words without clearing
 Implement some AI to account for differences in handwriting and ways of writing
 
 	Basic user guide
-===========================================
 For debug mode: 
 	1. Go to mainwindow.cpp and change debugMode variable to true
 	2. Run program
@@ -73,7 +69,6 @@ For debug mode:
 	4. Scroll left to have more space to write(also only allows writing from left to right)
 	5. Information on each vertex will be printed to the console with the following format:
 		x-coord y-coord timestamp delta-x* delta-y* delta-time*
-		
 		displacement one side / displacement other side
 
 For regular mode:
