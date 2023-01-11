@@ -56,8 +56,8 @@ Currently doesn't separate words.
 
 __To-Do List__
 
-Need to figure out a way to properly combined curved segments.
-Need to generalize code to cover a broader spectrum of handwritings i.e. order of segments shouldn't matter.
+Need to figure out a way to properly combined curved segments.   
+Need to generalize code to cover a broader spectrum of handwritings i.e. order of segments shouldn't matter.   
 Need to separate words
 Need to cross check correctness of outputted words with a dictionary
 Need to resize the writing panel to allow writing more words without clearing
@@ -66,18 +66,18 @@ Implement some AI to account for differences in handwriting and ways of writing
 Basic user guide
 --
 For debug mode: 
-	1. Go to mainwindow.cpp and change debugMode variable to true
-	2. Run program
-	3. Use top panel with red and blue writing lines to write characters
-	4. Scroll left to have more space to write(also only allows writing from left to right)
-	5. Information on each vertex will be printed to the console with the following format:
+	1. Go to mainwindow.cpp and change debugMode variable to true    
+	2. Run program    
+	3. Use top panel with red and blue writing lines to write characters   
+	4. Scroll left to have more space to write(also only allows writing from left to right)    
+	5. Information on each vertex will be printed to the console with the following format:    
 		x-coord y-coord timestamp delta-x* delta-y* delta-time*
 		displacement one side / displacement other side
 
-For regular mode:
-	1. Go to mainwindow.cpp and change debugMode variable to false(!true)
-	2. Run program
-	3. Use top panel with red and blue writing lines to write characters
-	4. Scroll left to have more space to write(also only allows writing from left to right)
-	5. Each read letter will be output to console
+For regular mode:    
+	1. Go to mainwindow.cpp and change debugMode variable to false(!true)     
+	2. Run program     
+	3. Use top panel with red and blue writing lines to write characters     
+	4. Scroll left to have more space to write(also only allows writing from left to right)     
+	5. Each read letter will be output to console     
 
