@@ -67,16 +67,16 @@ Basic user guide
 --
 For debug mode:     
 	1) _Go to mainwindow.cpp and change debugMode variable to true._   
-	2) _Run program._
-	3) _Use top panel with red and blue writing lines to write characters._
-	4) _Scroll left to have more space to write(also only allows writing from left to right)._
-	5) _Information on each vertex will be printed to the console with the following format:_  
-		>x-coord y-coord timestamp delta-x * delta-y * delta-time * displacement one side / displacement other side
+	2) _Run program._ 
+	3) _Use top panel with red and blue writing lines to write characters._ 
+	4) _Scroll left to have more space to write(also only allows writing from left to right)._ 
+	5) _Information on each vertex will be printed to the console with the following format:_ 
+> x-coord y-coord timestamp delta-x * delta-y * delta-time * displacement one side / displacement other side
 
 For regular mode:    
-	1) _Go to mainwindow.cpp and change debugMode variable to false(!true)._
+	1) _Go to mainwindow.cpp and change debugMode variable to false(!true)._  
 	2) _Run program._    
 	3) _Use top panel with red and blue writing lines to write characters._     
 	4) _Scroll left to have more space to write(also only allows writing from left to right)._     
-	5) _Each read letter will be output to console._
+	5) _Each read letter will be output to console._ 
 
