@@ -65,7 +65,7 @@ Implement some AI to account for differences in handwriting and ways of writing
 
 Basic user guide
 --
-For debug mode: 
+For debug mode:     
 	1. Go to mainwindow.cpp and change debugMode variable to true    
 	2. Run program    
 	3. Use top panel with red and blue writing lines to write characters   
