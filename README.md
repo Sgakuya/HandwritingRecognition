@@ -66,18 +66,17 @@ Implement some AI to account for differences in handwriting and ways of writing
 Basic user guide
 --
 For debug mode:     
-	1. Go to mainwindow.cpp and change debugMode variable to true    
+	1. _Go to mainwindow.cpp and change debugMode variable to true  
 	2. Run program    
 	3. Use top panel with red and blue writing lines to write characters   
 	4. Scroll left to have more space to write(also only allows writing from left to right)    
-	5. Information on each vertex will be printed to the console with the following format:    
-		x-coord y-coord timestamp delta-x* delta-y* delta-time*
-		displacement one side / displacement other side
+	5. Information on each vertex will be printed to the console with the following format:    _
+		> x-coord y-coord timestamp delta-x * delta-y * delta-time * displacement one side / displacement other side
 
 For regular mode:    
-	1. Go to mainwindow.cpp and change debugMode variable to false(!true)     
+	1. _Go to mainwindow.cpp and change debugMode variable to false(!true)     
 	2. Run program     
 	3. Use top panel with red and blue writing lines to write characters     
 	4. Scroll left to have more space to write(also only allows writing from left to right)     
-	5. Each read letter will be output to console     
+	5. Each read letter will be output to console     _
 
