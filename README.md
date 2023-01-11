@@ -1,6 +1,6 @@
-	Author: SMITH GAKUYA 
-
-	HANDWRITING RECOGNITION - GERMAN ALPHABET
+# HANDWRITING RECOGNITION - GERMAN ALPHABET
+## Author:
+Smith Gakuya
 
 Design and Code overview
 --
